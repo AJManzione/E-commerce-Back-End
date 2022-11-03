@@ -49,8 +49,9 @@ router.get('/:id', (req, res) => {
       res.status(500).json(err)
     });
 });
-  // create a new category
+
 router.post('/', (req, res) => {
+  // create a new category
   Category.create({
     category_name: req.body.category_name
   })
@@ -98,6 +99,7 @@ router.delete('/:id', (req, res) => {
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
-    });});
+    });
+});
 
 module.exports = router;
