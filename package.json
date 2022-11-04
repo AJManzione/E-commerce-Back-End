@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:jpd61/e-commerce-backend.git"
+    "url": "git@github.com:AJManzione/E-commerce-Back-End.git"
   },
   "keywords": [],
-  "author": "Joseph DeWoody",
+  "author": "Anthony Manzione",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.3"
